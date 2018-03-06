@@ -14,6 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jackiehluo/vim-material'
+Plugin 'w0rp/ale'
+Plugin 'mattn/emmet-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
