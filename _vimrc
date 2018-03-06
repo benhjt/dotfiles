@@ -88,8 +88,13 @@ set showcmd
 set mouse=a
 set history=1000
 set undolevels=1000
-set tabstop=4
-set shiftwidth=4
+" On pressing tab, insert 2 spaces
+set expandtab
+" show existing tab with 2 spaces width
+set tabstop=2
+set softtabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
 "Don't create a un~ file
 set noundofile
 "Don't create a ~ file
